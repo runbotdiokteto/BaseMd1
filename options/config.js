@@ -1,17 +1,14 @@
-/* 
-NOTE : JGN HPS DIBAWAH INI!!
-RECODE : RAHMXBOT X RAHMAN GNTENG:V
-WHATSAPP : 085821676621
-NOMOR BOT : 085821369324
-NOTE : JGN HPS AUTHORNYA!!!
-
-DONASI LAH BANG BIAR 
-ADMINNYA UPDATE LAGI
-
-Kalau Mau Donasi Silahkan Pilih Yah
-Payment : Ovo/Gopay/Dana
-Number Payment : Chat Owner Wa nya Di Atas
-Pulsa : 081528965381
+/*
+JNGN DIHPS CREATORNYA!
+CREATOR : AULIA RAHMAN
+JNGN DIHPS CREATORNYA!
+DONASI LAH BIAR ADMIN UP LAGI!
+DANA : 081528965381
+OVO : 085821676621
+PULSA : 081528965381
+SELAIN NO DIBAWAH INI CLONE YA!
+NOMOR WA OWNER : 085821676621
+SELAIN NO ITU CLONE YA!
 */
 
 const fs = require('fs')
@@ -30,17 +27,23 @@ global.APIKeys = {
 }
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
+global.domain = "-" // Isi Domain Lu
+global.apikey = '-' // Isi Apikey Plta Lu
+global.capikey = '-' // Isi Apikey Pltc Lu
 global.thumb = fs.readFileSync('./image/thumbnail.jpg') // JGN DI UBAH!
 global.name = 'Aulia Rahman (Owner)', // GNTI NAMA LU!
-global.creator = 'LiaaCans BOT' // GANTI NAMA BOT LU BANH!
+global.nomorsc = '6285821676621'
+global.creatorr = '© Created By RahmXBot' // GANTI NAMA BOT LU BANH!
 global.owner = ['6285821676621'] // GNTI NOMOR LU!
-global.premium = ['6285821676621', '6285821310166']
+//global.premium = ['6285821676621', '6285821310166']
  // ADD PREM YG LU MAU BANH!!
 global.quotes = 'Kesempatan Anda Untuk Sukses Di Setiap Kondisi Selalu Dapat Diukur Oleh Seberapa Besar Kepercayaan Anda Pada Diri Sendiri' // Ganti Quotes, Tapi Trsrh Klian
-global.pulsa = ['081528965381'] // UBAH NOMOR YG AKTIF!
-global.botname = 'Created LiaaCans BOT' // GNTI NAMA BOT LU!
-global.packname = 'Nih Stikel Umtukmu' // TRSERAH MO GANTI AP!
-global.author = 'LiaaCans BOT' // GNTI NMA LU!
+global.pulsa = '081528965381' // UBAH NOMOR YG AKTIF!
+global.dana = '081528965381' // UBAH NOMOR DANA YG AKTIF!
+global.ovo = '085821676621' // UBAH NOMOR OVO YG AKTIF!
+global.gopay = '085821676621' // UBAH NOMOR GOPAY YG AKTIF!
+global.titlestic = 'Punya Aulia R.' // GNTI NAMA BOT LU!
+global.packname = 'Chat Wa : 085821676621' // TRSERAH MO GANTI AP!
 global.fake = 'LIAACANS BOT VERIFIED' // GNTI NMA BOT LU BANH!
 global.prefa = ['','!','.','/','#','$']
 global.sp = '⭔' // JGN DI UBAH²! NTR EROR
@@ -53,7 +56,7 @@ owner: 'Fitur Ini Khusus Untuk Owner Bot',
 group: 'Fitur Ini Digunakan Hanya Untuk Group!',
 private: 'Fitur Ini Digunakan Hanya Untuk Private Chat!',
 bot: 'Fitur Ini Khusus Pengguna Nomor Bot',
-user: 'Maaf Anda Belum Terdaftar Ke Database\n\nSilahkan Daftar Terlebih Dahulu\nKetik .register',
+errorApi: 'Maaf Api Sedang Error!',
 wait: '*[WAIT]* SEDANG DIPROSES, HARAP TUNGGU SEBENTAR!',
 endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
