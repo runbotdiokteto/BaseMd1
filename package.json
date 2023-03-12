@@ -18,7 +18,7 @@
 "bot-md",
 "multi-device"
 ],
-"author": "ZeroYT7",
+"author": "Aulia Rahman Cakep",
 "license": "MIT",
 "dependencies": {
 "@adiwajshing/baileys": "^4.0.1",
@@ -28,6 +28,7 @@
 "chalk": "^4.1.2",
 "cheerio": "^1.0.0-rc.10",
 "child_process": "^1.0.2",
+"caliph-api": "^0.8.4",
 "crypto": "^1.0.1",
 "file-type": "^16.5.3",
 "fluent-ffmpeg": "^2.1.2",
@@ -64,10 +65,10 @@
 "devDependencies": {},
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Zero-YT7/BaseMD-ZeroYT7.git"
+"url": "git+https://github.com/liaacans/base-device2.git"
 },
 "bugs": {
-"url": "https://github.com/Zero-YT7/BaseMD-ZeroYT7/issues"
+"url": "https://github.com/liaacans/base-device2/issues"
 },
-"homepage": "https://github.com/Zero-YT7/BaseMD-ZeroYT7#readme"
+"homepage": "https://github.com/liaacans/base-device2#readme"
 }
