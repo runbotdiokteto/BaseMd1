@@ -1,3 +1,4 @@
+let ytsr = require("yt-search");
 let fetch = require('node-fetch')
 let { JSDOM } = require('jsdom')
 
@@ -87,6 +88,6 @@ module.exports = {
    * @param {String} url YouTube Video URL
    * @param {String} server (avaiable: `id4`, `en60`, `en61`, `en68`)
    */
-  ytv(url, resol = '360p', server = 'en154') { return yt(url, resol, 'mp4', resol.endsWith('p') ? resol.replace(/p/g, '') : resol, server) },
+  ytv(url, resol = '720p', server = 'en154') { return yt(url, resol, 'mp4', resol.endsWith('p') ? resol.replace(/p/g, '') : resol, server) },
   servers: ['en136', 'id4', 'en60', 'en61', 'en68']
 }

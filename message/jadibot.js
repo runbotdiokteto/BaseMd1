@@ -9,8 +9,6 @@ const chalk = require('chalk')
 const path = require('path')
 const qrcode = require('qrcode');
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('../message/myfunc')
-const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
-
 const storetes = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'storetes' }) })
 
 
@@ -75,7 +73,7 @@ console.log("Connection closed, reconnecting...."); startliaacans(); }
 else if (reason === DisconnectReason.connectionLost) { 
 console.log("Connection Lost from Server, reconnecting..."); startliaacans(); }
 else if (reason === DisconnectReason.connectionReplaced) { 
-console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First"); conn.logout(); }
+console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First"); liaacans.logout(); }
 else if (reason === DisconnectReason.loggedOut) { 
 console.log(`Device Logged Out, Please Scan Again And Run.`); liaacans.logout(); }
 else if (reason === DisconnectReason.restartRequired) { 
@@ -97,6 +95,26 @@ return decode.user && decode.server && decode.user + '@' + decode.server || jid
 }
 
 liaacans.sendText = (jid, text, quoted = '', options) => liaacans.sendMessage(jid, { text: text, ...options }, { quoted })
+
+/**
+* 
+* @param {*} jid 
+* @param {*} buttons 
+* @param {*} caption 
+* @param {*} footer 
+* @param {*} quoted 
+* @param {*} options 
+*/
+liaacans.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
+let buttonMessage = {
+text,
+footer,
+buttons,
+headerType: 2,
+...options
+}
+liaacans.sendMessage(jid, buttonMessage, { quoted, ...options })
+}
 
 }
 startliaacans()
