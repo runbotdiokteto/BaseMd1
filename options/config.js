@@ -14,28 +14,24 @@ SELAIN NO ITU CLONE YA!
 const fs = require('fs')
 const chalk = require('chalk')
 
-//━━━━━━━━━━━━━━━[ WEBSITE APIKEY ]━━━━━━━━━━━━━━━━━//
-
-global.APIs = {
-liaacans: 'https://zenzapis.xyz',
-}
-
-//━━━━━━━━━━━━━━━[ APIKEY ]━━━━━━━━━━━━━━━━━//
-
-global.APIKeys = {
-'https://zenzapis.xyz': '9d30efca66',
-}
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
+global.ultah = '2023-07-09'
+global.ramadhan = '2024-03-10'
+global.hrirya = '2024-04-10'
+global.thnbru = '2023-01-01'
+//===============================================//
 global.domain = "-" // Isi Domain Lu
 global.apikey = '-' // Isi Apikey Plta Lu
 global.capikey = '-' // Isi Apikey Pltc Lu
 global.thumb = fs.readFileSync('./image/thumbnail.jpg') // JGN DI UBAH!
+global.jumlah = '1000000000'
+global.apilolhuman = 'APIKEY_NOT_FOUND' // PASANG DISINI APIKEY LOLHUMAN, CREATE APIKEY DI WEB : https://api.lolhuman.xyz
 global.name = 'Aulia Rahman (Owner)', // GNTI NAMA LU!
-global.nomorsc = '6285821676621'
+global.nomorsc = '62858213693245'
 global.creatorr = '© Created By RahmXBot' // GANTI NAMA BOT LU BANH!
-global.owner = ['6285821676621'] // GNTI NOMOR LU!
-//global.premium = ['6285821676621', '6285821310166']
+global.owner = ['62858213693245'] // GNTI NOMOR LU!
+//global.premium = ['62858213693241', '6285821310166']
  // ADD PREM YG LU MAU BANH!!
 global.quotes = 'Kesempatan Anda Untuk Sukses Di Setiap Kondisi Selalu Dapat Diukur Oleh Seberapa Besar Kepercayaan Anda Pada Diri Sendiri' // Ganti Quotes, Tapi Trsrh Klian
 global.pulsa = '081528965381' // UBAH NOMOR YG AKTIF!
@@ -43,7 +39,7 @@ global.dana = '081528965381' // UBAH NOMOR DANA YG AKTIF!
 global.ovo = '085821676621' // UBAH NOMOR OVO YG AKTIF!
 global.gopay = '085821676621' // UBAH NOMOR GOPAY YG AKTIF!
 global.titlestic = 'Punya Aulia R.' // GNTI NAMA BOT LU!
-global.packname = 'Chat Wa : 085821676621' // TRSERAH MO GANTI AP!
+global.packname = 'Chat Wa : 62858213693245' // TRSERAH MO GANTI AP!
 global.fake = 'LIAACANS BOT VERIFIED' // GNTI NMA BOT LU BANH!
 global.prefa = ['','!','.','/','#','$']
 global.sp = '⭔' // JGN DI UBAH²! NTR EROR
